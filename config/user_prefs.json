@@ -1,0 +1,39 @@
+{
+  "controller": {
+    "kc": 0.01,
+    "ti": 9.8,
+    "td": 0.025,
+    "kc_max": 0.1,
+    "ti_max": 15.0,
+    "td_max": 0.1,
+    "bias": 0.0,
+    "u_min": 0.0,
+    "u_max": 100.0
+  },
+  "simulation": {
+    "duration": 10.1,
+    "step_time": 1.0,
+    "step_value": 60.0,
+    "sample_rate_hz": 251.0
+  },
+  "anchors": [
+    {
+      "flow_pct": 10.0,
+      "gain": 25.0,
+      "time_constant": 0.1,
+      "dead_time": 0.15
+    },
+    {
+      "flow_pct": 30.0,
+      "gain": 40.0,
+      "time_constant": 0.1,
+      "dead_time": 0.15
+    },
+    {
+      "flow_pct": 100.0,
+      "gain": 25.0,
+      "time_constant": 0.1,
+      "dead_time": 0.15
+    }
+  ]
+}
